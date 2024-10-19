@@ -10,7 +10,7 @@
       </h2>
     </a>
     <div class="text-base">
-      <a href="#" class="">{{$post['author']}}</a>  19 September 2024
+      <a href="/authors/{{$post->author->id}}" class="hover:underline">{{$post->author->name}}</a> | {{$post->created_at->diffForHumans()}}
       
       <p class="my-4 font-light">{{Str::limit($post['body'], 100)}}</p>
       <a href="/posts/{{$post['slug']}}" class="text-blue-700 hover:underline">Read more &raquo</a>
