@@ -20,3 +20,15 @@ Tidak Hanya itu, website telah menerapkan metode Models _posts_ untuk mengatur d
 ![image](readme-img/02-img1.png)
 
 ![image](readme-img/02.img2.png)
+
+## Final Website
+
+Menambahkan semua implementasi materi laravel di classroom.
+
+### Page Posts
+
+![alt text](readme-img/01-final.png)
+
+### Page Single Post
+
+![alt text](readme-img/02-final.png)
